@@ -36,7 +36,8 @@ module.exports = {
         string.split('').forEach(letter => {
             if(mctranslate[letter.toUpperCase()]) {
                 returnString = returnString + mctranslate[letter.toUpperCase()];
-            } else {
+            }
+            else {
                 returnString = returnString + letter;
             }
         })
@@ -48,7 +49,8 @@ module.exports = {
         string.split('').forEach(letter => {
             if(getKeyByValue(mctranslate, letter)) {
                 returnString = returnString + getKeyByValue(mctranslate, letter)
-            } else {
+            }
+            else {
                 returnString = returnString + letter
             }
         });
