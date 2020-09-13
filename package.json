@@ -1,0 +1,25 @@
+{
+  "name": "minecrafttranslate",
+  "version": "1.0.0",
+  "description": "A simple package to translate English (A-z) into standard galactic (minecraft enchantment table language).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "minecraft",
+    "enchantment",
+    "translate",
+    "simple"
+  ],
+  "author": "Liam Townsley",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiamTownsley/MinecraftEnchantment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiamTownsley/MinecraftEnchantment/issues"
+  },
+  "homepage": "https://github.com/LiamTownsley/MinecraftEnchantment#readme"
+}
