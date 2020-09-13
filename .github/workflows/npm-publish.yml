@@ -16,6 +16,13 @@ jobs:
         with:
           node-version: 12
       - run: npm test
+      - uses: TriPSs/conventional-changelog-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN_ACTION }}
+          git-message: 'chore(release): {version}'
+          preset: 'angular'
+          tag-prefix: ''
+          output-file: 'CHANGELOG.md'
 
   publish-npm:
     needs: build
